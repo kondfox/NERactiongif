@@ -11,9 +11,7 @@ layout: default
  
  <img src="{{ site.baseurl }}/images/{{ reaction.image }}" title="{{ reaction. title }}" alt="{{ reaction. title }}" width=300>
   {% capture  img_url %}{{ site.url }}{{ site.baseurl }}/images/{{ reaction.image }}{% endcapture %}
-  <button onclick="navigator.clipboard.writeText('{{img_url}}')"><i class="fas fa-link"></i></button>
-  <button onclick="navigator.clipboard.writeText('{{img_url}}')"><i class="fas fa-copy"></i></button>
+  <input class="urlshow" type="text" readonly="true" data-clipboard-text="{{img_url}}" value="{{img_url}}">
+  <button title="Copy link" onclick="navigator.clipboard.writeText('{{img_url}}')"><i class="fas fa-link"></i></button>
+  <button title="Copy image" onclick="navigator.clipboard.writeText('{{img_url}}')"><i class="fas fa-copy"></i></button>
  {% endfor %}
-
- <i class="far fa-copy"></i>
- <i class="fas fa-link"></i>

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: NERakció gif library
+title: NERakció <del>gif</del> lerakat - NERactiongif repository
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   De ennél izgalmasabb az az elképzelés, hogy egy technológiai szintlépés, a Fideszes Kommentelő 2.0 létrejöttének tanúi vagyunk, akinek már abszolút nem lesz szüksége külső megerősítésekre és ingerekre, a kormány által kitalált narratívát képes lesz egymaga felvetni, erről párbeszédet folytatni és a végén konklúzióra is jutni.
