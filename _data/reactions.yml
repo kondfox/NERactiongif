@@ -1,0 +1,31 @@
+# How to create submissions
+# 1. Add any new reactions to the list with a title and the image name.
+# 2. Place the image in the images folder. Only PNGs can be rendered with Jekyll.
+# 3. Send a pull request.
+# It will automatically appear in the collection on the front page after the PR is approved.
+  - title: "Kitartás!"
+    image: "kitartas.png"
+
+#  - title: "Piros volt a paradicsom, nem sárga. Olcsó lesz a kristálycukor, nem drága! ✔️🇭🇺"
+#    image: "piros_volt_a_paradicsom_nem_sarga.png"
+
+  - title: "😂✌️💪🇭🇺"
+    image: "emoji1.png"
+
+  - title: "Olcsó lesz a kristáylcukor, nem drága. Magyarország előre megy, nem hátra! 😅✌️🇭🇺🍊💪"
+    image: "kristalycukor.png"
+
+  - title: "Kétharmad! 🍊💪🇭🇺"
+    image: "ketharmad.png"
+
+  - title: "Remek hír! 🔥"
+    image: "remek_hir.png"
+
+  - title: "Bravó! 👏💪"
+    image: "bravo.png"
+
+  - title: "Csak így tovább! A számoknem hazudnak!"
+    image: "csak_igy_tovabb_a_szamok_nem_hazudnak.png"
+
+  - title: "Ezt kell tenni!"
+    image: "ezt_kell_tenni.png"

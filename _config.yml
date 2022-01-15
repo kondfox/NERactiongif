@@ -28,13 +28,13 @@ twitter_username:
 github_username:  
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
-domain: pingween.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+domain: pingween.github.io                    # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://pingween.github.io/NERactiongif  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /NERactiongif/      # place folder name if the site is served in a subfolder
+baseurl: /NERactiongif                        # place folder name if the site is served in a subfolder
 
 # Exclude from processing.
 # The following items will not be processed, by default.
