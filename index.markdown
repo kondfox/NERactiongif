@@ -4,3 +4,10 @@
 
 layout: default
 ---
+
+# miért ne?
+
+ {% for reaction in site.data.reactions %}
+ {{ reaction. title }}  
+ <img src="/images/{{ reaction.image }}" title="{{ reaction. title }}" alt="{{ reaction. title }}" width=300>
+ {% endfor %}
