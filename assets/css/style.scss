@@ -2,10 +2,20 @@
 ---
 
 @import 'jekyll-theme-cayman';
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Droid+Serif|Playfair+Display|Open+Sans+Condensed:300);
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'EB Garamond';
+}
 
 .page-header {
-    font-family: 'Special Elite', cursive;
+    font-family: 'EB Garamond';
     color: #2F4858;
     background-image: linear-gradient(to right bottom, #c8102e, #dd4a6e, #e479a5, #e4a5d1, #e7ceed, #dbd3f3, #cfd8f5, #c7dcf4, #84c8e2, #2cb5be, #009e85, #00843d);
     display: flex;
@@ -14,8 +24,73 @@
 	justify-content: center;
 }
 
+.main-content h2 {
+    color:#00843d
+}
+
+.quote-flex-grid {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.quote-flex-grid .quote-col {
+    width: 40%;
+
+}
+
+.quote-col {
+    padding: 20px;
+    flex: 1;
+  }
+
+@media (max-width: 400px) {
+    .quote-flex-grid {
+      display: block;
+      .quote-col {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+    }
+  }
+
+.quote {
+    position: relative;
+    letter-spacing: .03em;
+    margin-bottom: .5rem;
+    
+    &:before {
+        content: "“";
+        position: absolute;
+        left: -.7em;
+    }
+    
+    &:after {
+        content: "”";
+        margin-right: -1rem;
+    }
+}
+
+.quote--container {
+    margin: 4.5rem auto 0;
+    max-width: 30em;
+    border-bottom: 2px dotted #C6D1BF;
+    padding-bottom: .5rem;
+}
+
+.quote--author {
+    font-family: 'Open Sans Condensed';
+    font-size: .8rem;
+    text-align: right;
+    font-weight: 300;
+}
+
+img.reaction-img {
+    max-width: 360 !important;
+}
+
 blockquote {
-    font-family: 'Special Elite', cursive;
+    font-family: 'EB Garamond';
 	font-weight: 100;
 	font-size: 1rem;
 	max-width: 600px;
@@ -53,4 +128,9 @@ cite {
 
 cite.a {
     color: #567B97;
+    text-align: right;
+}
+
+.site-footer-owner {
+    text-align: center;
 }

@@ -17,8 +17,7 @@
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <blockquote>{{ page.description | default: site.description | default: site.github.project_tagline }}</blockquote>
-      <cite>-- <a href="https://444.hu/2022/01/12/itt-a-fideszes-influenszer-szingularitas-kovacs-zoltan-profilja-mar-kovacs-zoltan-posztja-ala-kommentel-egyetertoleg" title="Itt a fideszes influenszer-szingularitás: Kovács Zoltán profilja már Kovács Zoltán posztja alá kommentel egyetértőleg">444.hu</a></cite>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         {% comment%}
           <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
