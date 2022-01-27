@@ -25,5 +25,5 @@ layout: default
   {% capture  img_url %}{{ site.url }}{{ site.baseurl }}/images/{{ reaction.image }}{% endcapture %}
   <input class="urltext" type="text" readonly="true" data-clipboard-text="{{img_url}}" value="{{img_url}}">
   <button title="Copy link" onclick="navigator.clipboard.writeText('{{img_url}}')"><i class="fas fa-link"></i></button>
-  <button title="Copy image" onclick="navigator.clipboard.writeText('{{img_url}}')"><i class="fas fa-copy"></i></button>
+  <button title="Copy image" onclick="copyImageToClipboard('{{img_url}}')"><i class="fas fa-copy"></i></button>
 {% endfor %}
