@@ -4,32 +4,35 @@
 # 3. Send a pull request.
 # It will automatically appear in the collection on the front page after the PR is approved.
 
-  - title: "Ott leszünk! 💪🇭🇺"
-    image: "ott_leszunk_kovacs_zoltan.png"
-    
-  - title: "Remek hír! 🔥"
-    image: "remek_hir.png"
+- title: 'Ott leszünk! 💪🇭🇺'
+  image: 'ott_leszunk_kovacs_zoltan.png'
 
-  - title: "Bravó! 👏💪"
-    image: "bravo.png"
+- title: 'Remek hír! 🔥'
+  image: 'remek_hir.png'
 
-  - title: "Kitartás!"
-    image: "kitartas.png"
+- title: 'Bravó! 👏💪'
+  image: 'bravo.png'
 
-  - title: "Kétharmad! 🍊💪🇭🇺"
-    image: "ketharmad.png"
+- title: 'Kitartás!'
+  image: 'kitartas.png'
 
-  - title: "Csak így tovább! A számok nem hazudnak!"
-    image: "csak_igy_tovabb_a_szamok_nem_hazudnak.png"
+- title: 'Kétharmad! 🍊💪🇭🇺'
+  image: 'ketharmad.png'
 
-  - title: "Ezt kell tenni!"
-    image: "ezt_kell_tenni.png"
+- title: 'Csak így tovább! A számok nem hazudnak!'
+  image: 'csak_igy_tovabb_a_szamok_nem_hazudnak.png'
+
+- title: 'Ezt kell tenni!'
+  image: 'ezt_kell_tenni.png'
 
 #  - title: "Piros volt a paradicsom, nem sárga. Olcsó lesz a kristálycukor, nem drága! ✔️🇭🇺"
 #    image: "piros_volt_a_paradicsom_nem_sarga.png"
 
-  - title: "😂✌️💪🇭🇺"
-    image: "emoji1.png"
+- title: '😂✌️💪🇭🇺'
+  image: 'emoji1.png'
 
-  - title: "Olcsó lesz a kristáylcukor, nem drága. Magyarország előre megy, nem hátra! 😅✌️🇭🇺🍊💪"
-    image: "kristalycukor.png"
+- title: 'Olcsó lesz a kristáylcukor, nem drága. Magyarország előre megy, nem hátra! 😅✌️🇭🇺🍊💪'
+  image: 'kristalycukor.png'
+
+- title: 'Egyértelműen rétes. 😋'
+  image: 'egyertelmuen_retes.png'
